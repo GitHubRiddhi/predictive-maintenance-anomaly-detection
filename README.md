@@ -10,29 +10,13 @@ Automated Anomaly Detection for Predictive Maintenance is driven by the desire t
 
 This initiative is motivated by the vision of creating a more resilient and optimized industrial landscape through the application of advanced data-driven methodologies. The project endeavors to contribute to the ongoing evolution of predictive maintenance, making it an integral part of smart and sustainable industrial practices.
 
-# Build Status
-
-[![Build Status](https://travis-ci.org/your-username/your-repository.svg?branch=main)](https://travis-ci.org/your-username/your-repository)
-
-The current build status of the project can be tracked using the above badge. Continuous integration and automated testing are integral parts of this project's development workflow. The badge indicates whether the latest changes in the codebase pass the automated tests.
-
-If you encounter any build issues or errors, feel free to check the Travis CI build logs linked above. Additionally, contributions to address any build-related issues are always welcome. Together, we can ensure a robust and error-free development environment for this project.
-
-# Code Style
-
-This project adheres to the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for Python code. Consistent code style is crucial for readability and maintainability, and following a standard style guide helps achieve that.
-
-To maintain code consistency, contributors are encouraged to follow the PEP 8 guidelines when submitting pull requests or making changes to the codebase. The use of tools like [flake8](https://flake8.pycqa.org/) is recommended to check for and enforce adherence to PEP 8 standards.
-
-If you're new to PEP 8 or have any questions about the code style used in this project, feel free to reach out. Consistent coding practices contribute to a more enjoyable and collaborative development experience.
-
 
 # Screenshots
 
 Here are some snapshots showcasing different aspects of the Automated Anomaly Detection for Predictive Maintenance project. These visuals provide a glimpse into the functionality and user interface of the system.
 
 1. **Dashboard Overview:**
-   ![Dashboard Overview](/screenshots/dashboard.png)
+   ![Dashboard Overview](/Visuals/EDA_Overview.jpeg)
 
 2. **Anomaly Detection Results:**
    ![Anomaly Detection Results](/screenshots/anomaly_results.png)
