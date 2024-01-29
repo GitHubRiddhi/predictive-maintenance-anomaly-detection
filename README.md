@@ -136,7 +136,7 @@ git clone https://github.com/GitHubRiddhi/predictive-maintenance-anomaly-detecti
 **Install Dependencies:**
 
 Navigate to the project directory:
-cd predictive-maintenance-anomaly-detection
+cd predictive-maintenance-anomaly-detection/Notebooks
 
 Install the required Python dependencies using:
 pip install -r requirements.txt
