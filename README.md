@@ -30,7 +30,7 @@ Predicted Score (Marker: x): The predicted scores are the anomaly scores assigne
 By comparing the true labels with the predicted scores, we can assess how effectively our model identifies anomalies and understand its performance across different examples.
 
 4. **Data Visualization:**
-   ![Data Visualization](/Visuals/ROC curve.jpeg)
+     ![Data Visualization](/Visuals/ROC curve.jpeg)
    **ROC curve**
 The Receiver Operating Characteristic (ROC) curve visualizes the performance of our anomaly detection model based on the true positive rate (sensitivity) against the false positive rate (1 - specificity) across different threshold values.
 
