@@ -30,9 +30,8 @@ Predicted Score (Marker: x): The predicted scores are the anomaly scores assigne
 By comparing the true labels with the predicted scores, we can assess how effectively our model identifies anomalies and understand its performance across different examples.
 
 4. **Data Visualization:**
-   ![Data Visualization](/Visuals/)
-   **Data Visualization:**
-Receiver Operating Characteristic (ROC) Curve
+   ![Data Visualization](/Visuals/ROC curve.jpeg)
+   **ROC curve**
 The Receiver Operating Characteristic (ROC) curve visualizes the performance of our anomaly detection model based on the true positive rate (sensitivity) against the false positive rate (1 - specificity) across different threshold values.
 
 ROC Curve (AUC = 0.91): The ROC curve illustrates the trade-off between true positive rate and false positive rate at various threshold levels. A higher area under the curve (AUC) value indicates better discrimination ability of the model between normal and anomalous instances.
@@ -41,6 +40,13 @@ Baseline Line (Diagonal dashed line): The diagonal line represents the baseline 
 
 By examining the ROC curve, we can assess the model's ability to distinguish between normal and anomalous instances, with a higher AUC value indicating superior performance.
 
+ ![Data Visualization](/Visuals/precision Recall curve.jpeg)
+**Precision-Recall Curve**
+The Precision-Recall curve provides insights into the trade-off between precision and recall for our anomaly detection model.
+
+Precision-Recall Curve (AUC = 0.85): The Precision-Recall curve illustrates the model's precision (positive predictive value) against recall (sensitivity) across different threshold values. The area under the curve (AUC) reflects the model's ability to balance precision and recall effectively.
+
+By analyzing the Precision-Recall curve, we can evaluate the model's performance in identifying anomalies while minimizing false positives. A higher AUC value indicates superior precision-recall balance and model effectiveness.
 
 # Tech/Framework used
 
