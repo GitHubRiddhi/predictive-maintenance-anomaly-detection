@@ -123,7 +123,7 @@ These features collectively make Automated Anomaly Detection for Predictive Main
 
 # How to Use?
 
-The explanation of every step is also given in the Jupyter Notebook <a href="/Anoma.ipynb" target="_blank">Anoma.ipynb</a> and you can also check the <a href="/Anoma_report.pdf" target="_blank">Anoma_report.pdf</a> for the same.
+The explanation of every step is also given in the Jupyter Notebook <a href="Notebooks/Anoma.ipynb" target="_blank">Anoma.ipynb</a> and you can also check the <a href="/Anoma_report.pdf" target="_blank">Anoma_report.pdf</a> for the same.
 
 Follow these steps to effectively use the Automated Anomaly Detection for Predictive Maintenance project:
 
