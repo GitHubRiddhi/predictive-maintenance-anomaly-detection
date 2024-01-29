@@ -40,13 +40,38 @@ Baseline Line (Diagonal dashed line): The diagonal line represents the baseline 
 
 By examining the ROC curve, we can assess the model's ability to distinguish between normal and anomalous instances, with a higher AUC value indicating superior performance.
 
- ![Data Visualization](/Visuals/precision Recall curve.jpeg)
+ ![Data Visualization](/Visuals/precision_Recall_curve.jpeg)
 **Precision-Recall Curve**
 The Precision-Recall curve provides insights into the trade-off between precision and recall for our anomaly detection model.
 
 Precision-Recall Curve (AUC = 0.85): The Precision-Recall curve illustrates the model's precision (positive predictive value) against recall (sensitivity) across different threshold values. The area under the curve (AUC) reflects the model's ability to balance precision and recall effectively.
 
 By analyzing the Precision-Recall curve, we can evaluate the model's performance in identifying anomalies while minimizing false positives. A higher AUC value indicates superior precision-recall balance and model effectiveness.
+
+ ![Data Visualization](/Visuals/confusion_matrix.jpeg)
+ **Confusion Matrix**
+The confusion matrix provides a comprehensive overview of the performance of our anomaly detection model by comparing predicted labels with actual labels.
+
+Heatmap Representation: The heatmap visualizes the confusion matrix, where actual labels are displayed on the vertical axis and predicted labels on the horizontal axis. Each cell in the matrix indicates the count of instances for a specific combination of predicted and actual labels.
+
+Interpretation: Correct predictions are represented by cells along the diagonal, where the predicted label matches the actual label. Off-diagonal cells signify misclassifications, highlighting areas where the model may be struggling to differentiate between normal (0) and anomalous (1) instances.
+
+Annotations: The numbers within each cell denote the count of instances for the corresponding combination of predicted and actual labels.
+
+By analyzing the confusion matrix, we gain valuable insights into the model's strengths and weaknesses, allowing us to refine and improve its performance over time.
+
+ ![Data Visualization](/Visuals/calibration_curve.jpeg)
+**Calibration Curve**
+The calibration curve provides insights into the calibration of our anomaly detection model by comparing the mean predicted probabilities with the actual fraction of positives across different probability thresholds.
+
+Curve Representation: The curve visualizes the relationship between the mean predicted probabilities and the fraction of positive instances. Each point on the curve represents a probability threshold, with the x-axis indicating the mean predicted probability and the y-axis representing the fraction of positive instances.
+
+Perfectly Calibrated Line: The dashed gray line represents perfect calibration, where the predicted probabilities perfectly match the actual fraction of positives. Deviations from this line indicate potential calibration errors or discrepancies in the model's probability estimates.
+
+By analyzing the calibration curve, we can assess the reliability and accuracy of our model's predicted probabilities and identify areas for calibration refinement.
+
+
+
 
 # Tech/Framework used
 
