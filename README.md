@@ -122,15 +122,18 @@ These features collectively make Automated Anomaly Detection for Predictive Main
 
 
 # How to Use?
+
+The explanation of every step is also given in the Jupyter Notebook <a href="/Anoma.ipynb" target="_blank">Anoma.ipynb</a> and you can also check the <a href="/Anoma_report.pdf" target="_blank">Anoma_report.pdf</a> for the same.
+
 Follow these steps to effectively use the Automated Anomaly Detection for Predictive Maintenance project:
 
-## Clone the Repository:
+**Clone the Repository:**
 
 Clone this repository to your local machine using the following command:
 
 git clone https://github.com/GitHubRiddhi/predictive-maintenance-anomaly-detection.git
 
-## Install Dependencies:
+**Install Dependencies:**
 
 Navigate to the project directory:
 cd predictive-maintenance-anomaly-detection
@@ -138,109 +141,65 @@ cd predictive-maintenance-anomaly-detection
 Install the required Python dependencies using:
 pip install -r requirements.txt
 
-## Open the Jupyter Notebook:
+**Open the Jupyter Notebook:**
 
 Launch Jupyter Notebook:
 
 Open the Anoma.ipynb notebook.
 
-## Run the Notebook Cells:
+**Run the Notebook Cells:**
 
 Execute each cell in the notebook sequentially.
 Pay attention to the comments and markdown cells for guidance on each step.
 
-## Explore the Results:
+**Explore the Results:**
 
 Analyze the visualizations and insights provided by the notebook.
 Customize parameters or experiment with your own datasets if needed.
 
-## Model Deployment (Optional):
+**Model Deployment (Optional):**
 
-If you wish to deploy the trained model for real-time anomaly detection, refer to the deployment section in the notebook for guidelines.
+Deploy the trained model for real-time anomaly detection, refer to the deployment section in the notebook for guidelines.
 
-## Feedback and Contributions:
+**Real-time Anomaly Detection and Visualization of Anomalies:**
+Make inferences, visualize Anomalies, prediction results, Evaluation, and Deeper Insights by creating a predictor instance using the endpoint name of the deployed model, refer to the Cross Evaluation and Deeper Insights section in the notebook
+
+
+## Feedback:
 
 Provide feedback or report issues through GitHub.
-Feel free to contribute to the project by opening pull requests with improvements.
+
 By following these steps, you can effectively utilize the anomaly detection capabilities of the project for predictive maintenance in your own datasets.
 
 
-# Contribute
-We welcome contributions from the community to enhance and improve the Automated Anomaly Detection for Predictive Maintenance project. Whether you're a developer, data scientist, or enthusiast, your contributions are valuable.
-
-How to Contribute:
-## Fork the Repository:
-
-Fork the project repository to your GitHub account by clicking the "Fork" button on the top right.
-
-## Clone Your Fork:
-
-Clone your forked repository to your local machine:
-git clone https://github.com/YourUsername/predictive-maintenance-anomaly-detection.git
-
-## Create a New Branch:
-
-Create a new branch for your contribution:
-git checkout -b feature/your-feature
-
-## Make Changes:
-
-Implement your changes, fix bugs, or add new features.
-
-## Commit Changes:
-
-Commit your changes with a descriptive commit message:
-git commit -m "Add feature: your feature description"
-
-## Push to Your Fork:
-
-Push your changes to your GitHub fork:
-git push origin feature/your-feature
-
-## Open a Pull Request:
-
-Open a pull request from your fork to the main repository.
-Provide a detailed description of your changes.
-What You Can Contribute:
-
-## Bug Fixes: If you find any issues, feel free to fix them.
-## Enhancements: Improve existing features or add new ones.
-## Documentation: Help improve project documentation.
-## Testing: Contribute to testing and improving code quality.
-
-## Code Style:
-Follow the existing code style used in the project. If there's a specific code style guideline, it will be mentioned in the repository.
-
-We appreciate your efforts to make this project better for everyone!
-
-
 # Credits
-We would like to express our gratitude to the following individuals, projects, and resources that have been instrumental in the development of Automated Anomaly Detection for Predictive Maintenance:
+I would like to express our gratitude to the following resources that have been instrumental in the development of Automated Anomaly Detection for Predictive Maintenance:
 
-## XGBoost:
+ **XGBoost**:
 
 The project utilizes the powerful XGBoost library for predictive modeling. XGBoost GitHub Repository
 
-## Scikit-learn:
+**Scikit-learn:**
 
 Leveraging Scikit-learn for various machine learning utilities. Scikit-learn GitHub Repository
 
-## GitHub:
+**GitHub:**
 
 Valuable insights and inspiration from various open source projects on GitHub.
 
-## Data Science Community:
+**Data Science Community:**
 
 Continuous learning and inspiration from the vibrant data science and machine learning communities.
 
-## Online Resources:
+**Online Resources:**
 
-Blogs, articles, and tutorials that provided valuable insights and knowledge.
-We appreciate the collective efforts of the open source community and the wealth of knowledge shared by individuals and organizations.
+AWS Documentation, Blogs, articles and tutorials that provided valuable insights and knowledge.
+I appreciate the collective efforts of the open-source community and the wealth of knowledge shared by individuals and organizations.
 
-If you find any resource missing or would like to be credited, please let us know, and we'll make sure to acknowledge your contributions.
+If you find any resource missing or would like to be credited, please let us know, and I'll make sure to acknowledge your contributions.
 
 Thank you for being part of this journey!
 
-# License
-This project is licensed under the MIT License.
+**Riddhi Sharma**
+
+
