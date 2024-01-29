@@ -19,7 +19,7 @@ Here are some snapshots showcasing different aspects of the Automated Anomaly De
    ![Dashboard Overview](/Visuals/EDA_Overview.jpeg)
 
 2. **Anomaly Detection Results:**
-   ![Anomaly Detection Results](/screenshots/anomaly_results.png)
+   ![Anomaly Detection Results](/Visuals/anomaly_results.jpeg)
 
 3. **Data Visualization:**
    ![Data Visualization](/screenshots/data_visualization.png)
