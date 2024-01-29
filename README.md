@@ -30,9 +30,16 @@ Predicted Score (Marker: x): The predicted scores are the anomaly scores assigne
 By comparing the true labels with the predicted scores, we can assess how effectively our model identifies anomalies and understand its performance across different examples.
 
 4. **Data Visualization:**
-   ![Data Visualization](/screenshots/data_visualization.png)
+   ![Data Visualization](/Visuals/)
+   **Data Visualization:**
+Receiver Operating Characteristic (ROC) Curve
+The Receiver Operating Characteristic (ROC) curve visualizes the performance of our anomaly detection model based on the true positive rate (sensitivity) against the false positive rate (1 - specificity) across different threshold values.
 
-Feel free to explore the screenshots to get a visual sense of how the project works. For a more interactive experience, consider checking out the live demo or running the project locally.
+ROC Curve (AUC = 0.91): The ROC curve illustrates the trade-off between true positive rate and false positive rate at various threshold levels. A higher area under the curve (AUC) value indicates better discrimination ability of the model between normal and anomalous instances.
+
+Baseline Line (Diagonal dashed line): The diagonal line represents the baseline performance of a random classifier.
+
+By examining the ROC curve, we can assess the model's ability to distinguish between normal and anomalous instances, with a higher AUC value indicating superior performance.
 
 
 # Tech/Framework used
